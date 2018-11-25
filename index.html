@@ -4,9 +4,109 @@
     <meta charset="utf-8">
     <title>HTML Academy: Барбершоп</title>
   </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+<body>
+  <Header class="main-header">
+    <nav class="main-nav">
+      <a class="navigation-logo"><img src="img/index-logo.svg" width="368" height="153" alt="Барбершоп Бородинский"></a>
+      <ul class="site-navigation">
+        <li><a href="info.html">информация</a></li>
+        <li><a href="news.html">новости</a></li>
+        <li><a href="price.html">прайс-лист</a></li>
+        <li><a href="shop.html">магазин</a></li>
+        <li><a href="contacts.html">контакты</a></li>
+      </ul>
+      <ul class="user-navigation">
+        <li class="login-link"><a href="#">Вход</a></li>
+      </ul> 
+    </nav>
+  </Header>      
+   <main class="container">
+    <h1 class="visualy-hidden"><a>Барбершоп "Бородинский"</a></h1>
+     <section class="features-list">
+      <h2 class="visualy-hidden">Приемуества</h2>
+      <ul>
+        <li class="features-item">
+          <h3>быстро</h3>
+          <p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+        </li>  
+        <li class="features-item">
+          <h3>круто</h3>
+          <p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</p>
+        </li>
+        <li class="features-item">
+          <h3>дорого</h3>
+          <p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
+        </li>
+      </ul>
+     </section>
+     <section class="news-list">
+      <h2>Новости</h2>
+        <ul>
+          <li class="news-item">
+            <p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+            <time datetime="2018-01-11">11 января</time> 
+          </li>
+          <li class="news-item">
+            <p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+            <time datetime="2018-01-18"> 18 января</time>
+          </li>
+          <li class="all-news black-buttons"><a href="#all-news">все новости</a>
+          </li>
+        </ul> 
+     </section>
+     <section class="main-photogallery">
+       <h2>фотогаллерея</h2>
+       <ul class="main-photo-list">
+         <li><img src="#" alt="photo"></li>
+         <li><button class="black-buttons back-button">назад</button></li>
+         <li><button class="black-buttons forward-button">вперед</button></li>
+       </ul>
+     </section>
+     <section class="contact-info">
+      <h2>контактная информация</h2>
+      <ul class="contact-info-list">
+       <li class="contact-info-item-1"><p>БАРБЕРШОП «БОРОДИНСКИЙ»</p><br>
+         <p>АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8</p><br>
+         <p>ТЕЛЕФОН: +7 (495) 666-02-66</p></li>
+       <li class="contact-info-item-2">
+         <p>время работы:</p><br>
+         <p>ПН—ПТ: С 10:00 ДО 22:00</p><br>
+         <p>СБ—ВС: С 10:00 ДО 19:00</p>
+       </li>
+      </ul> 
+     </section>
+     <section class="sign-up">
+       <h2>записаться</h2>
+       <ul class="sign-up-list">
+         <li><p>УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p></li>
+         <li><p>дата</p><textarea class="sign-up-date"></textarea></li>
+         <li><p>время</p><textarea class="sign-up-time"></textarea></li>
+         <li><p>ваше имя</p><textarea class="sign-up-name"></textarea></li>
+         <li><p>телефон</p><textarea class="sign-up-phone"></textarea></li>
+         <li><button class="sign-up-send black-buttons">отправить</button></li>
+       </ul>
+     </section>
+     <section class="main-footer">
+       <Ul class="main-footer-list">
+         <li>
+           <p>Барбершоп «БОРОДИНСКИЙ»</p><br>
+           <p>АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8</p><br>
+           <p><a href="#">КАК НАС НАЙТИ?</a></p><br>
+           <p>ТЕЛЕФОН: +7 (495) 666-02-66</p>
+         </li>
+         <li>
+           <p>давайте дружить!</p>
+           <p><a href="#" class="social-button social-button-vk">VK</a></p>
+           <p><a href="#" class="social-button social-button-FB">FB</a></p>
+           <p><a href="#" class="social-button social button-IG">IG</a></p>
+         </li>
+         <li>
+           <p>разработано:</p>
+           <a href="https://htmlacademy.ru" class="black-buttons">HTMl ACADMY</a>
+         </li>
+       </Ul>
+     </section> 
+   </main>
 
   </body>
 </html>
